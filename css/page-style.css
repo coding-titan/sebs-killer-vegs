@@ -11,13 +11,14 @@ body {
     display: flex;
     justify-content: center;
     margin: 1%;
+    scrollbar-color: black;
 }
 
 header {
     background-color: black;
     min-width: 80%;
     max-width: 1200px;
-    max-height: 10%;
+    max-height: 20vh;
     position: absolute;
     top: 0px;
     display: flex;
