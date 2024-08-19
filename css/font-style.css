@@ -47,3 +47,7 @@ a:hover {
 .red {
     color: red;
 }
+
+.large {
+    font-size: 160%;
+}
