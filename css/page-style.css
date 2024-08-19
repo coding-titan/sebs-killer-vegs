@@ -1,0 +1,35 @@
+/* General style for the page */
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: black;
+    min-width: 80%;
+    max-width: 1200px;
+    box-shadow: 5px 5px 5px white;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    line-height: 2rem;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    color: red;
+}
+
+main {
+    margin-top: 200px;
+}
