@@ -2,6 +2,7 @@
 
 h1, h3, h4, a, p, li, button {
     color: white;
+    z-index: 100;
 }
 
 h2 {
