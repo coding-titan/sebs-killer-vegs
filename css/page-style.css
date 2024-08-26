@@ -84,8 +84,12 @@ footer h3, footer h4, footer p {
 
 footer a {
     font-family: "Playfair Display";
-    font-size: 1.32rem;
+    font-size: 1rem;
     font-weight: normal;
+}
+
+footer p {
+    font-size: 1rem;
 }
 
 #made-by-div {
