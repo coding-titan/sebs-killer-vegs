@@ -6,6 +6,10 @@
 
 /* General style for the page */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     display: grid;
@@ -32,6 +36,7 @@ nav {
     padding: 1rem;
     line-height: 2rem;
     justify-content: center;
+    align-content: center;
 }
 
 .logo {
@@ -68,7 +73,6 @@ main {
     justify-content: center;
     align-content: center;
     align-items: center;
-    scrollbar-color: black;
 }
 
 footer {
