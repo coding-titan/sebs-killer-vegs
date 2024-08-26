@@ -8,11 +8,15 @@
 
 html {
     scroll-behavior: smooth;
+    /*overflow-x: hidden;*/
 }
 
 body {
+    box-sizing: border-box;
     background-color: black;
     display: grid;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
@@ -37,10 +41,12 @@ nav {
     line-height: 2rem;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
 .logo {
     align-self: center;
+    text-align: center;
 }
 
 .button-wrapper {
@@ -56,6 +62,7 @@ button {
     align-content: center;
     box-shadow: 5px 5px 5px white;
     flex: 1;
+    text-wrap: wrap;
 }
 
 button:active {
@@ -73,12 +80,17 @@ main {
     justify-content: center;
     align-content: center;
     align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 footer {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin: 3rem 1rem;
+    margin-top: 7rem;
+    width: 100vw;
 }
 
 footer h3, footer h4, footer p {
@@ -99,4 +111,34 @@ footer p {
 #made-by-div {
     text-align: end;
     align-self: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    button {
+        padding: 0.5rem;
+        min-width: 64px;
+    }
+    
+    footer {
+        margin: 1rem 0rem;
+        width: 100%;
+    }
+    
+    footer a {
+        font-size: 0.5rem;
+        font-weight: normal;
+    }
+    
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    .material-symbols-outlined {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    
 }

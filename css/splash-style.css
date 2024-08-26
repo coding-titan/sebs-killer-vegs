@@ -76,3 +76,25 @@
     text-align: center;
     align-content: center;
 }
+
+@media screen and (max-width: 900px) {
+    #splash-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .box-one-column-a {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .box-one-column-b {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .box-two-columns {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+    
+    #primary-splash-box {
+        display: none;
+    }
