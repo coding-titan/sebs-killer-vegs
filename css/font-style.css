@@ -51,3 +51,7 @@ a:hover {
 .large {
     font-size: 160%;
 }
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}

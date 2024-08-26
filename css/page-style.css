@@ -8,10 +8,7 @@
 
 body {
     background-color: black;
-    display: flex;
-    justify-content: center;
-    margin: 1%;
-    scrollbar-color: black;
+    display: grid;
 }
 
 header {
@@ -26,6 +23,7 @@ header {
     align-content: center;
     border-radius: 0px 5px;
     padding: 1rem;
+    justify-self: center;
 }
 
 nav {
@@ -65,4 +63,32 @@ button:active {
 
 main {
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    scrollbar-color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 1rem;
+}
+
+footer h3, footer h4, footer p {
+    margin: 0.5rem 1rem;
+    line-height: 1.6;
+}
+
+footer a {
+    font-family: "Playfair Display";
+    font-size: 1.32rem;
+    font-weight: normal;
+}
+
+#made-by-div {
+    text-align: end;
+    align-self: flex-end;
 }
