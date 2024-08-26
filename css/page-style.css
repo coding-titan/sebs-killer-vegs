@@ -90,6 +90,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 7rem;
+    margin-bottom: 1rem;
     width: 100vw;
 }
 
