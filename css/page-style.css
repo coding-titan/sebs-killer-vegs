@@ -91,9 +91,9 @@ footer {
     justify-content: space-between;
     margin-top: 7rem;
     margin-bottom: 1rem;
-    width: 100vw;
     padding-left: 2rem;
     padding-right: 2rem;
+    width: 100vw;
 }
 
 footer h3, footer h4, footer p {
